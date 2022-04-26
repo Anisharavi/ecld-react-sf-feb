@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  width: 400px;
+  background-color:rgb(172, 167, 177);
+  padding: bottom 50px;
+  border: radius 20px;
+}
+
+.todos{
+    padding:15px;
+    font-size:32px;
+    color:brown;
+    font-family: "Times New Roman", Times, serif;
+    text-align:center;
+}
+
+h2{
+   font-size:25px;
+   font-family: "Times New Roman", Times, serif; 
+   
+}
+
+#addTask{
+  position: relative;
+  padding: 10px 20px;
+}
+
+#addTask input{
+  width: 75%;
+  height: 55px;
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  border: 2px solid #1e2020;
+  padding: 12px;
+  color: #1d0f0f;
+  font-weight: 500;
+  position: relative;
+  border-radius: 20px;
+}
+
+#addTask input:focus{
+  outline: none;
+  border-color: #2b2f33;
+}
+
+#addTask button{
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #0d75ec;
+  border: none;
+  color: #1f0404;
+  cursor: pointer;
+  outline: none;
+  border-radius: 20px;
+}
+
+
+#tasks{
+  padding: 5px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.task{
+  background-color:GREY;
+  height: 40px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  cursor: pointer;
+}
+
+.task span{
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.task button{
+  background-color: #010305;
+  color: #ffffff;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
